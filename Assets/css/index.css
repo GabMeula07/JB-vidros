@@ -63,12 +63,30 @@ html{
     background-color: #f2f2f2;
     height: 90vh;
 }
+@media (width < 340px){
+  .titulo{
+    margin-left: 1rem;
+  }
+  .titulo h1{
+    font-size: small;
+    max-width: 22rem;
+  }
+  .titulo h3{
+    max-width: 19rem;
+    font-size: 8pt;
+    margin-bottom: 27px;
+  }
+  .container{
+    height: 100vh;
+  }
+  
+}
 @media (width < 470px){
     .titulo{
       margin-left: 1rem;
     }
     .titulo h1{
-      font-size: 24pt;
+      font-size: 22pt;
       max-width: 22rem;
     }
     .titulo h3{
@@ -78,11 +96,16 @@ html{
       background-position: 40%;
     }
 }
-@media (width < 900px) {
+@media (with > 470px ) and (width < 900px) {
   .container{
+    height: 100vh;
     background-position: 80%;
   }
+  .titulo{
+    margin-top: 60px;
+  }
   .titulo h1{
+
     font-size: 30pt;
     max-width: 48rem;
   }
