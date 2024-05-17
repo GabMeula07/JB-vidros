@@ -17,7 +17,7 @@
       <img id="logo" src="Assets/images/logo.png" alt="logo" />
       <nav>
         <ul>
-          <a class="a1" href="#">Sobre Nós</a>
+          <a class="a1" href="#sobre">Sobre Nós</a>
           <a class="a2" href="#">Serviços</a>
           <a class="a3" href="#">Contato</a>
         </ul>
@@ -28,10 +28,10 @@
         <div class="line3"></div>
       </button>
     </header>
-    <div class="menu-mobile">
-      <a href="#">Sobre Nós</a>
-      <a href="#">Serviços</a>
-      <a href="#">Contato</a>
+    <div class="menu-mobile ">
+      <a onclick="openBtn()" href="#sobre">Sobre Nós</a>
+      <a onclick="openBtn()" href="#">Serviços</a>
+      <a onclick="openBtn()" href="#">Contato</a>
     </div>
     <section class="container">
       <div class="titulo">
@@ -50,7 +50,9 @@
         <a href="#">Faça um Orçamento</a>
       </div>
     </section>
-    <section class="sobre"></section>
+    <section id="sobre" class="sobre">
+      <h2>"Mais que uma história, uma missão."</h2>
+    </section>
     <script src="Assets/js/menu.js"></script>
   </body>
 </html>

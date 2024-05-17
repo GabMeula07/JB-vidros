@@ -11,7 +11,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 /* Home */
 
 .container {
@@ -66,9 +68,26 @@
       margin-left: 1rem;
     }
     .titulo h1{
-      font-size: 25pt;
+      font-size: 24pt;
+      max-width: 22rem;
+    }
+    .titulo h3{
+      max-width: 23.8rem;
     }
     .container{
       background-position: 40%;
     }
+}
+@media (width < 900px) {
+  .container{
+    background-position: 80%;
+  }
+  .titulo h1{
+    font-size: 30pt;
+    max-width: 48rem;
+  }
+  .titulo h3{
+    font-size: 12pt;
+    max-width: 41rem;
+  }
 }

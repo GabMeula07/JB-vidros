@@ -3,6 +3,7 @@ const line1 = document.querySelector('.line1')
 const line2 = document.querySelector('.line2')
 const line3 = document.querySelector('.line3')
 const heade =document.querySelector('.header');
+const mobile = document.querySelector('.menu-mobile');
 const a1 = document.querySelector('.a1');
 const a2 = document.querySelector('.a2');
 const a3 = document.querySelector('.a3');
@@ -18,6 +19,8 @@ function openBtn(){
     line1.classList.toggle('close1');
     line2.classList.toggle('close2');
     line3.classList.toggle('close3');
+    mobile.classList.toggle('open');
+    
 }
 
 setInterval(() => {
@@ -37,7 +40,6 @@ setInterval(() => {
         a1.classList.remove('out');
         a2.classList.remove('out');
         a3.classList.remove('out');
-        
         menu.classList.add('invert')
     }
 }, 400);
