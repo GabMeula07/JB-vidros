@@ -117,6 +117,39 @@ html {
 .sobre span {
   color: #d6b22e;
 }
+footer{
+  height: 70vh;
+  background-color: rgb(5, 5, 5);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer p{
+  color: #d9d9d9;
+}
+footer span{
+  display: flex;
+  column-gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  
+}
+.container-footer{
+  margin-left: 4rem;
+}
+.logo{
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+iframe{
+  border-radius: 20px;
+}
+span p{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 15pt;
+  
+}
 @media (width < 340px) {
   .titulo {
     margin-left: 1rem;
@@ -152,6 +185,7 @@ html {
     height: max-content;
     padding-top: 5px;
     padding-bottom: 6.5rem;
+    margin-bottom: 2rem;
   }
   #sobre img{
     width: 15rem;
@@ -171,6 +205,17 @@ html {
     margin-left: 20px;
     font-size: 22pt;
     width: 90%;
+  }
+  footer{
+    flex-direction: column;
+  }
+  iframe{
+    margin-top: 2rem;
+    width: 95%;
+  }
+  .container-footer{
+    margin-top: 1rem;
+    margin-left: 1rem;
   }
 
 }

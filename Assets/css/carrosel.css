@@ -1,9 +1,9 @@
 .servicos {
-    position: relative;
+    
   background-color: #323131;
   min-height: auto;
   margin-top: 5rem;
-  padding-top: 70px;
+  padding: 70px 0;
 }
 .servicos h2 {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -12,7 +12,6 @@
   margin-bottom: 1.6rem;
 }
 .container-card {
-  position: relative;
   width: 100%;
   height: max-content;
   display: flex;
@@ -23,13 +22,14 @@
 .card {
   width: 200px;
   height: 250px;
-  background-color: #d9d9d9;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
   text-align: center;
   overflow: hidden;
+  box-shadow: 4px 4px 10px #0c0c0c;
 }
 .card h3{
     font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -39,14 +39,14 @@
     max-width: 80%;
     border-radius: 10px;
     padding: 10px;
-    background-color: #d9d9d9;
+    background-color: #ffffff;
 }
 .wrapper {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-grow: initial;
-  row-gap: 1rem;
+  row-gap: 2rem;
   column-gap: 2rem;
  justify-content: space-around;
 }
