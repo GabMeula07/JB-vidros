@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Assets/css/index.css" />
     <link rel="stylesheet" href="Assets/css/menu.css" />
+    <link rel="stylesheet" href="Assets/css/carrosel.css" />
     <link
       rel="shortcut icon"
       href="Assets/images/logo.png"
@@ -18,7 +19,7 @@
       <nav>
         <ul>
           <a class="a1" href="#sobre">Sobre Nós</a>
-          <a class="a2" href="#">Serviços</a>
+          <a class="a2" href="#servico">Serviços</a>
           <a class="a3" href="#">Contato</a>
         </ul>
       </nav>
@@ -28,7 +29,7 @@
         <div class="line3"></div>
       </button>
     </header>
-    <div class="menu-mobile ">
+    <div class="menu-mobile">
       <a onclick="openBtn()" href="#sobre">Sobre Nós</a>
       <a onclick="openBtn()" href="#">Serviços</a>
       <a onclick="openBtn()" href="#">Contato</a>
@@ -37,21 +38,84 @@
       <div class="titulo">
         <h1>A solução completa em vidros para a sua casa e empresa!</h1>
         <h3>
-          Vidros quebrados ou danificados te causam transtornos? Sente que falta
-          algo especial naquele ambiente que você tanto ama? A
+          A
           <strong>JB Vidros e Assistência</strong> é a solução completa para
           todos os seus problemas com vidros! Somos especialistas em reparar,
           instalar e substituir vidros para residências, condomínios, empresas e
-          comércios em geral. Com nossa equipe experiente e materiais de alta
-          qualidade, garantimos um serviço rápido, eficiente e seguro, para que
-          você possa desfrutar de seus espaços com total tranquilidade.
+          comércios em geral.
         </h3>
 
         <a href="#">Faça um Orçamento</a>
       </div>
     </section>
     <section id="sobre" class="sobre">
-      <h2>"Mais que uma história, uma missão."</h2>
+      <h2>"Mais que uma história, uma <span>missão</span>."</h2>
+      <div class="container-sobre">
+        <img src="./Assets/images/box.jpeg" alt="" />
+        <div class="sobretxt">
+          <h3>Sobre nós</h3>
+          <p>
+            Em 2023, nasce a JB Vidros e Assitência com o objetivo de atender as
+            necessidades de vidraçaria e assistência da comunidade de forma
+            rápida, eficiente e com preços competitivos. <br /><br />
+            Fundada por Jonathas Barbosa, um profissional experiente com mais de
+            5 anos no ramo, a empresa se destaca pela qualidade dos serviços
+            prestados e pelo atendimento personalizado.
+          </p>
+          <br />
+          <p>
+            Oferecemos uma ampla gama de serviços, desde a instalação de vidros
+            em portas, janelas e sacadas até a confecção de espelhos sob medida,
+            box para banheiro e reparos em geral. <br /><br />
+            A empresa conta com uma equipe de profissionais experientes e
+            qualificados, que utilizam materiais de alta qualidade para garantir
+            a sua satisfação .
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="servico" class="servicos">
+      <h2>Serviços</h2>
+      <div class="container-card">
+        <button onclick="carrouselL()" id="dir">
+          <img src="Assets/images/svgs/setaL.svg" alt="">
+       </button>
+        <button onclick="carrouselR()" id="esq">
+          <img src="Assets/images/svgs/setaR.svg" alt="">
+        </button>
+
+        <div class="wrapper">
+          <div class="gallery">
+            <div class="card">
+              <h3>JBvidros1</h3>
+            </div>
+            <div class="card">
+              <h3>JBvidros2</h3>
+          </div>
+          <div class="card">
+            <h3>JBvidros3</h3>
+          </div>
+          <div class="card">
+            <h3>JBvidros4</h3>
+          </div>
+          <div class="card">
+            <h3>JBvidros5</h3>
+          </div>
+          <div class="card">
+            <h3>JBvidros6</h3>
+          </div>
+          <div class="card">
+            <h3>JBvidros7</h3>
+          </div>
+          <div class="card">
+            <h3>JBvidros8</h3>
+          </div>
+          <div class="card">
+            <h3>JBvidros9</h3>
+          </div>
+        </div>
+      </div>
+      </div>
     </section>
     <script src="Assets/js/menu.js"></script>
   </body>

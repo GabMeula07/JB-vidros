@@ -8,6 +8,10 @@ const a1 = document.querySelector('.a1');
 const a2 = document.querySelector('.a2');
 const a3 = document.querySelector('.a3');
 const logo = document.querySelector('#logo');
+const btnLeft = document.querySelector('#esq');
+const btnRight = document.querySelector('#dir');
+const gallery = document.querySelector('.gallery');
+
 
 
 menu.addEventListener("click", (e)=>{
@@ -43,3 +47,36 @@ setInterval(() => {
         menu.classList.add('invert')
     }
 }, 400);
+
+
+function carrouselR(){
+    if (gallery.style.marginLeft == '-100%'){
+        gallery.style.marginLeft = '-200%'
+        
+    }
+    else if (gallery.style.marginLeft == '-200%'){
+        gallery.style.marginLeft = '0'
+       
+    }
+    else{
+        gallery.style.marginLeft = '-100%'
+       
+
+    }
+    
+    
+}
+function carrouselL(){
+    if (gallery.style.marginLeft == '-100%'){
+        gallery.style.marginLeft = '0'
+       
+    }
+    else if (gallery.style.marginLeft == '-200%'){
+        gallery.style.marginLeft = '-100%'
+       
+    }
+    else{
+        gallery.style.marginLeft = '-200%'
+  
+    }
+}

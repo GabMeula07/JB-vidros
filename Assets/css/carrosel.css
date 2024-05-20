@@ -1,0 +1,55 @@
+.servicos{
+    background-color: #323131;
+}
+.servicos h2{
+    color: #fff;
+    text-align: center;
+}
+.container-card {
+    position: relative;
+  width: 100%;
+  height: 400px;
+ 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card:first-child{
+    margin-left: 40px;
+}
+.card {
+  width: 200px;
+  height: 300px;
+  min-width: 200px;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.wrapper{
+    width: 900px;
+    overflow-x: hidden;
+}
+.gallery{
+    width: 900px;
+    display: flex;
+    gap: 100px;
+    transition: 1s ease-in-out;
+}
+.container-card button{
+    position: absolute;
+    top: 45%;
+    background-color: transparent;
+    border: none;
+}
+.container-card button img{
+    width: 2rem;
+}
+
+#dir{
+    left: 10rem;
+}
+#esq{
+    right: 10rem;
+}
