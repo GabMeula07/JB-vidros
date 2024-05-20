@@ -92,7 +92,7 @@ html {
   align-items: start;
 }
 .sobretxt {
-  width: 40rem;
+  width: 89%;
 }
 .sobre h2 {
   margin-top: 2rem;
@@ -164,7 +164,7 @@ html {
     row-gap: 2rem;
   }
   .sobretxt{
-    width: 20rem;
+    width: 80%;
   }
   .sobre h2{
     margin-left: 20px;
