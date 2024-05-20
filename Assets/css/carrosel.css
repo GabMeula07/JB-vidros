@@ -1,55 +1,71 @@
-.servicos{
-    background-color: #323131;
+.servicos {
+    position: relative;
+  background-color: #323131;
+  min-height: auto;
+  margin-top: 5rem;
+  padding-top: 70px;
 }
-.servicos h2{
-    color: #fff;
-    text-align: center;
+.servicos h2 {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1.6rem;
 }
 .container-card {
-    position: relative;
+  position: relative;
   width: 100%;
-  height: 400px;
- 
+  height: max-content;
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-.card:first-child{
-    margin-left: 40px;
+  padding-bottom: 2rem;
 }
 .card {
   width: 200px;
-  height: 300px;
-  min-width: 200px;
+  height: 250px;
   background-color: #d9d9d9;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  text-align: center;
+  overflow: hidden;
 }
-.wrapper{
-    width: 900px;
-    overflow-x: hidden;
+.card h3{
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    width: max-content;
+    max-width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #d9d9d9;
 }
-.gallery{
-    width: 900px;
-    display: flex;
-    gap: 100px;
-    transition: 1s ease-in-out;
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: initial;
+  row-gap: 1rem;
+  column-gap: 2rem;
+ justify-content: space-around;
 }
-.container-card button{
-    position: absolute;
-    top: 45%;
-    background-color: transparent;
-    border: none;
+.c1{
+    background-image: url('../images/esquad.png');
 }
-.container-card button img{
-    width: 2rem;
+.c2{
+    background-image: url('../images/sacad.png');
 }
-
-#dir{
-    left: 10rem;
+.c3{
+    background-image: url('../images/box2.png');
 }
-#esq{
-    right: 10rem;
+.c4{
+    background-image: url('../images/espelho.png');
+}
+.c5{
+    background-image: url('../images/janela.png');
+}
+.c6{
+    background-image: url('../images/pelicula.png');
+    background-size: cover;
 }

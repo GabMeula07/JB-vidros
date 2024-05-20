@@ -47,36 +47,3 @@ setInterval(() => {
         menu.classList.add('invert')
     }
 }, 400);
-
-
-function carrouselR(){
-    if (gallery.style.marginLeft == '-100%'){
-        gallery.style.marginLeft = '-200%'
-        
-    }
-    else if (gallery.style.marginLeft == '-200%'){
-        gallery.style.marginLeft = '0'
-       
-    }
-    else{
-        gallery.style.marginLeft = '-100%'
-       
-
-    }
-    
-    
-}
-function carrouselL(){
-    if (gallery.style.marginLeft == '-100%'){
-        gallery.style.marginLeft = '0'
-       
-    }
-    else if (gallery.style.marginLeft == '-200%'){
-        gallery.style.marginLeft = '-100%'
-       
-    }
-    else{
-        gallery.style.marginLeft = '-200%'
-  
-    }
-}
