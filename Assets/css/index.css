@@ -143,6 +143,10 @@ ul {
   display: flex;
   column-gap: 60px;
 }
+.frame{
+    width: 60%;
+    height: 70%;
+}
 a {
   text-decoration: underline;
   text-decoration-color: transparent;
