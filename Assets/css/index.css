@@ -456,7 +456,7 @@ span p {
   .sobretxt p:last-child {
     margin-bottom: 3rem;
   }
-  .sobre {
+  .sobre {z-index: 0;
     position: relative;
     margin-bottom: 7rem;
   }
